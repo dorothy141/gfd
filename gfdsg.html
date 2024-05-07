@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honkai: Star Rail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 1440px;
+            height: 765px;
+            flex-shrink: 0;
+            background-image: url('wallpaper.gif');
+            background-size: cover;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1440px;
+            height: 87px;
+            flex-shrink: 0;
+            background-color: transparent;
+            color: white;
+        }
+
+        .logo {
+            width: 84px;
+            height: 82.542px;
+            transform: rotate(0.337deg);
+            margin-left: 30px;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 53px;
+            font-size: 18px;
+        }
+
+        .download-button {
+            display: flex;
+            width: 269px;
+            height: 66px;
+            padding: 15px 50px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+            border-radius: 0px 0px 0px 30px;
+            border: 1px solid #121212;
+            background: linear-gradient(90deg, #e0c9a9 0%, #eabb8a 100%);
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            filter: brightness(1.2);
+        }
+
+        .honkai-image {
+            position: absolute;
+            top: 439px;
+            left: 7px;
+            width: 974px;
+            height: 147px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo.png" class="logo" alt="Logo">
+            <nav class="menu">
+                <a href="#concept">Концепція</a>
+                <a href="#characters">Персонажі</a>
+                <a href="#events">Події</a>
+                <a href="#news">Новини</a>
+            </nav>
+            <div class="download-button">ЗАВАНТАЖИТИ</div>
+        </header>
+        <img src="img/Honkai.png" class="honkai-image" alt="Honkai">
+    </div>
+</body>
+</html>
